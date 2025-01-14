@@ -1,0 +1,28 @@
+.front-page-container {
+    display: flex;
+}
+.front-page-image {
+    width: 60%;
+    background-color: #ffeb3b;
+    padding: 1%;
+    padding-top: 9%;
+    padding-bottom: 9%;
+    display: flex;
+    justify-content: center;
+}
+.front-page-image img {
+    width: 80%;
+    height: auto;
+}
+.front-page-text {
+    width: 40%;
+    padding-top: 10%;
+}
+.main-text {
+    font-size: 600%;
+    padding: 2%;
+}
+.motto-text {
+    font-size: 2rem;
+    padding: 2%;
+}
