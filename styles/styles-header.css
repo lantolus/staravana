@@ -5,7 +5,6 @@
     .header {
         width: 100%;
         background-color: #f4f4f4;
-        /* padding: 20px; */
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -19,7 +18,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* gap: 20px; */
         background-color: #ffeb3b;
         width: 60%;
         height: 100%;
@@ -31,7 +29,6 @@
     }
     .header-nav {
         display: flex;
-        /* gap: 20px; */
         justify-content: space-evenly;
         align-items: center;
         width: 40%;
@@ -42,7 +39,6 @@
         text-decoration: none;
         text-transform: uppercase;
         font-weight: bold;
-        /* border-radius: 5px; */
         text-align: center;
     }
     .button-black {
@@ -53,7 +49,6 @@
     .button-yellow {
         background-color: #ffeb3b;
         color: #000;
-        /* border: 2px solid #000; */
     }
     .background-overlay {
         background-color: #ffeb3b;
@@ -94,7 +89,7 @@
         align-items: center;
         background-color: #ffeb3b;
         padding: 0 20px;
-        height: 60px; /* or 100% to fill header */
+        height: 60px;
         box-sizing: border-box;
     }
     .left-group {

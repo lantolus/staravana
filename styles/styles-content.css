@@ -1,6 +1,5 @@
 @media (min-width: 1124px) {
     .content-container {
-        /* width: 100%; */
         display: flex;
     }
     .content-images {
@@ -11,9 +10,6 @@
     .content-images img {
         height: 450px;
         width: auto;
-    }
-    .content-text {
-        /* padding: 2%; */
     }
     .title {
         padding: 1%;
