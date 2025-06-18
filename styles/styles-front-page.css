@@ -37,6 +37,7 @@
     .resp-text {
         display: flex;
         justify-content: center;
+        text-align: center;
         font-size: 400%;
         padding: 2%;
         padding-top: 70px;
