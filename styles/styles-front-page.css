@@ -3,6 +3,9 @@
     .resp-text {
         display: none;
     }
+    .resp-text-recon {
+        display: none;
+    }
     .front-page-container {
         display: flex;
     }
@@ -31,6 +34,10 @@
         font-size: 2rem;
         padding: 2%;
     }
+    .motto-text-recon {
+        font-size: 2rem;
+        padding: 2%;
+    }
 }
 
 @media (max-width: 1124px){
@@ -41,6 +48,14 @@
         font-size: 400%;
         padding: 2%;
         padding-top: 70px;
+    }
+    .resp-text-recon {
+        justify-content: center;
+        text-align: center;
+        font-size: 150%;
+        font-weight: normal;
+        padding-bottom: 20px;
+
     }
     .front-page-text{
         display: none;
