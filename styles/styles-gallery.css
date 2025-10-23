@@ -5,7 +5,7 @@
     margin-top: 3%;
 }
 @media (min-width: 1124px) {
-    .gallery-container {
+    .gallery-container-before-after {
         display: flex;
         justify-content: space-around;
         padding-top: 2%;
@@ -20,7 +20,7 @@
 }
 
 @media (max-width: 1124px) {
-    .gallery-container{
+    .gallery-container-before-after{
         display: flex;
         flex-direction: column;
         align-items: center;

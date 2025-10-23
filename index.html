@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/styles-front-page.css">
     <link rel="stylesheet" href="styles/styles-content.css">
     <link rel="stylesheet" href="styles/styles-gallery.css">
+    <link rel="stylesheet" href="styles/styles-gallery-js.css">
     <link rel="stylesheet" href="styles/styles-contact.css">
     <link rel="stylesheet" href="styles/styles-hamburger.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -79,52 +80,84 @@
                     <h2>Stará vaňa ako nová</h2>
                 </div>
                 <div class="plain-text">
-                    <p>Šetrite čas aj peniaze</p>
+                    <h2>Šetrite čas aj peniaze</h2>
                     <p>Ak plánujete rekonštrukciu kúpeľne, renovácia vane môže byť tou najlepšou voľbou na úsporu peňazí. Namiesto nákladnej výmeny vane a zbytočného rozbíjania kúpeľne, renovácia ponúka cenovo dostupný spôsob, ako získať vaňu opäť v perfektnom stave. Tento proces vám umožní predĺžiť životnosť vane o niekoľko rokov, pričom kúpeľňa zostane funkčná a pripravená na každodenné používanie. Ak sa rozhodnete odložiť kompletnú rekonštrukciu kúpeľne, renovovaná vaňa vám poskytne čas na to, aby ste si všetko premysleli a pripravili sa na budúce kroky.</p>
-                    <p>Renovácia priamo u vás doma</p>
+                    <h2>Renovácia priamo u vás doma</h2>
                     <p>Renovácia vane je rýchla a pohodlná. Celý proces sa vykonáva priamo u vás doma, takže nemusíte vyberať vaňu ani narúšať každodenný život v domácnosti. Renovácia trvá od 3 do 5 hodín v závislosti od stavu vane, a po nanesení smaltu je potrebné počkať 24 hodín, aby sa povrch úplne stvrdol. Aj keď renovovaná vaňa neponúka neobmedzenú odolnosť, výrazne predlžuje jej životnosť a je možné ju renovovať viackrát, čím sa zabezpečí jej dlhodobá funkčnosť.</p>
-                    <p>Dôvody opotrebovania a proces renovácie</p>
-                    <p>Na renováciu sa zameriavame na najčastejšie poškodenia, ako sú žltnutie spôsobené tvrdou vodou, obitie, hrdzavenie či drsný povrch spôsobený používaním agresívnych čistiacich prostriedkov. Smaltovanie vane v bielej farbe nielen zlepšuje jej vzhľad, ale aj obnovuje jej funkčné vlastnosti. Aj keď renovovaná vaňa nevyžaduje okamžitú výmenu, jej životnosť je predĺžená o niekoľko rokov, a to aj v prípade, že sa rozhodnete renováciu zopakovať. Okrem renovácie vaní sa venujeme aj renovácii umyvadiel a sprchových kútov, čo vám pomôže udržať celú kúpeľňu v skvelej kondícii.</p>
+                    <h2>Dôvody opotrebovania a proces renovácie</h2>
+                    <p id="gallery">Na renováciu sa zameriavame na najčastejšie poškodenia, ako sú žltnutie spôsobené tvrdou vodou, obitie, hrdzavenie či drsný povrch spôsobený používaním agresívnych čistiacich prostriedkov. Smaltovanie vane v bielej farbe nielen zlepšuje jej vzhľad, ale aj obnovuje jej funkčné vlastnosti. Aj keď renovovaná vaňa nevyžaduje okamžitú výmenu, jej životnosť je predĺžená o niekoľko rokov, a to aj v prípade, že sa rozhodnete renováciu zopakovať. Okrem renovácie vaní sa venujeme aj renovácii umyvadiel a sprchových kútov, čo vám pomôže udržať celú kúpeľňu v skvelej kondícii.</p>
                 </div>
             </div>
         </div>
     </section>
     <section>
-        <div class="gallery-title" id="gallery">
+        <div class="gallery-title">
             <h2>Galéria pred a po</h2>
         </div>
-        <div class="gallery-container">
+        <div class="gallery-container-before-after">
             <div class="gallery-item">
-                <img src="images/pred1.jpg" alt="">
-                <img src="images/po1.jpg" alt="">
+                <img src="images/before-after/pred1.jpg" alt="">
+                <img src="images/before-after/po1.jpg" alt="">
 <!--                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
             </div>
             <div class="gallery-item">
-                <img src="images/pred2.jpg" alt="">
-                <img src="images/po2.jpg" alt="">
+                <img src="images/before-after/pred2.jpg" alt="">
+                <img src="images/before-after/po2.jpg" alt="">
 <!--                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
             </div>
             <div class="gallery-item">
-                <img src="images/pred3.jpg" alt="">
-                <img src="images/po3.jpg" alt="">
+                <img src="images/before-after/pred3.jpg" alt="">
+                <img src="images/before-after/po3.jpg" alt="">
 <!--                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
             </div>
         </div>
     </section>
     <section>
-        <div class="image-footer" id="footer">
-            <img src="images/bath-footer.jpg" alt="">
+        <!-- Gallery Container with Arrows -->
+        <div class="gallery-container">
+            <span class="gallery-prev"></span>
+
+            <div class="gallery-slider" id="gallerySlider">
+                <img src="images/gallery/Image1.jpg" alt="Image 1" data-index="0">
+                <img src="images/gallery/Image2.jpg" alt="Image 2" data-index="1">
+                <img src="images/gallery/Image3.jpg" alt="Image 3" data-index="2">
+                <img src="images/gallery/Image4.jpg" alt="Image 4" data-index="3">
+                <img src="images/gallery/Image5.jpg" alt="Image 5" data-index="4">
+                <img src="images/gallery/Image6.jpg" alt="Image 6" data-index="5">
+                <img src="images/gallery/Image7.jpg" alt="Image 7" data-index="6">
+                <img src="images/gallery/Image8.jpg" alt="Image 8" data-index="7">
+                <img src="images/gallery/Image9.jpg" alt="Image 9" data-index="8">
+                <img src="images/gallery/Image10.jpg" alt="Image 10" data-index="9">
+            </div>
+
+            <span class="gallery-next"></span>
         </div>
+
+        <!-- Fullscreen Modal -->
+        <div class="modal" id="imageModal">
+            <span class="close">&times;</span>
+            <div class="modal-content">
+                <span class="prev">&lt;</span>
+                <img class="modal-image" id="modalImage" src="" alt="">
+                <span class="next">&gt;</span>
+            </div>
+            <div class="modal-nav">
+                <span id="modalIndex">1 / 5</span>
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+    </section>
+    <section>
         <div class="questions">
             <h2>Máte otázky?</h2>
         </div>
         <div class="contact">
-            <div class="contact-item">email@email.com</div>
+            <div class="contact-item">info@renovaciavane.sk</div>
             <div class="contact-item">+421 949 698 340</div>
         </div>
     </section>
-    <footer>
-        <p>   </p>
+    <footer id="footer">
+        <p>Profesionálna renovácia vaní po celom východnom Slovensku – nový lesk bez výmeny.</p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/hamburger.js"></script>
