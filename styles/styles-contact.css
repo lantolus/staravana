@@ -15,6 +15,20 @@
     background-color: #ffeb3b;
     padding: 1% 2%;
     border: 1px solid black;
+    cursor: pointer;
+    transition: color 0.2s ease, background-color 0.2s ease;
+    display: inline-block;
+}
+
+.contact-item a {
+    color: black;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.contact-item:hover {
+    color: #57595a;
+    background-color: #f7e600;
 }
 footer{
     width: 100%;
