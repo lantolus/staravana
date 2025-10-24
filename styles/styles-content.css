@@ -1,3 +1,6 @@
+#content-page {
+    scroll-margin-top: 60px;
+}
 @media (min-width: 1124px) {
     .content-container {
         display: flex;

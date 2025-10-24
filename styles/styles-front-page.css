@@ -29,6 +29,7 @@
     .main-text {
         font-size: 600%;
         padding: 2%;
+        line-height: 1;
     }
     .motto-text {
         font-size: 2rem;
@@ -37,6 +38,7 @@
     .motto-text-recon {
         font-size: 2rem;
         padding: 2%;
+        line-height: 1;
     }
 }
 
@@ -48,6 +50,7 @@
         font-size: 400%;
         padding: 2%;
         padding-top: 70px;
+        line-height: 1;
     }
     .resp-text-recon {
         justify-content: center;

@@ -4,6 +4,9 @@
     background-color: #ffeb3b;
     margin-top: 3%;
 }
+#gallery {
+    scroll-margin-top: 80px;
+}
 @media (min-width: 1124px) {
     .gallery-container-before-after {
         display: flex;

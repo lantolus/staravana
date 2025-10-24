@@ -24,7 +24,7 @@
         padding: 1%;
     }
     .logo-container img {
-        width: 70px;
+        width: 12vw;
         height: auto;
     }
     .header-nav {
@@ -100,8 +100,26 @@
         white-space: nowrap;
     }
     .logo-container img {
-        width: 60px;
+        width: 20vw;
         height: auto;
 
     }
 }
+@media (max-width: 800px) and (min-width: 441px) {
+    .logo-container img {
+        width: 45vw; /* slightly larger in this range */
+        max-width: 200px; /* prevents it from blowing up on wider tablets */
+        height: auto;
+    }
+}
+@media (max-width: 440px) {
+    .logo-container img {
+        width: 50vw; /* scales better on very small devices */
+        max-width: 200px;
+        height: auto;
+    }
+    .accompany-text {
+        font-size: 4vw;
+    }
+}
+
