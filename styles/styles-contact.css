@@ -2,6 +2,7 @@
     width: 100%;
     height: 200px;
     padding-top: 2%;
+    transition: transform 0.3s ease;
 }
 .questions {
     display: flex;
@@ -24,8 +25,9 @@
     padding: .5rem 1rem;
     border: 1px solid black;
     cursor: pointer;
-    transition: color .2s ease, background-color .2s ease;
+    /*transition: color .2s ease, background-color .2s ease;*/
     display: inline-block;
+    transition: transform 0.3s ease;
 }
 
 .contact-item a {
@@ -35,6 +37,7 @@
     display: inline-flex;
     align-items: center;
     white-space: nowrap;
+    transition: transform 0.3s ease;
 }
 
 .contact-item a svg {
@@ -50,11 +53,11 @@
     .contact-item   { padding: .4rem .8rem; }
 }
 .contact-item a:hover {
-    color: #57595a;
+    transform: scale(1.05);
 }
 .contact-item:hover {
-    color: #57595a;
     background-color: #f7e600;
+    transform: scale(1.05);
 }
 footer{
     width: 100%;
